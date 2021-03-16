@@ -1,0 +1,38 @@
+{
+    "name": "iaasen/pswin",
+    "type": "library",
+    "description": "Client to access Pswin/Linkmobility SOAP API. SOAP interface supports sending multiple message in one request",
+    "keywords": [],
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Ingvar Aasen",
+            "email": "ingvar.aasen@nte.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "iaasen/stdlib": "dev-master",
+        "laminas/laminas-modulemanager": "^2",
+        "laminas/laminas-servicemanager": "^3",
+        "phpro/soap-client":  "^1"
+    },
+    "require-dev": {
+        "laminas/laminas-code": "^3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iaasen\\Pswin\\": "src"
+        },
+        "classmap": [
+            "src/Module.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "repositories": []
+}
