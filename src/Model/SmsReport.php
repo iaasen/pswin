@@ -1,9 +1,4 @@
 <?php
-/**
- * User: ingvar.aasen
- * Date: 06.10.2017
- * Time: 17:27
- */
 
 namespace Iaasen\Pswin\Model;
 

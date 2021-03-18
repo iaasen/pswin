@@ -14,6 +14,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.3",
+        "guzzlehttp/guzzle": "^6",
         "iaasen/stdlib": "dev-master",
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-servicemanager": "^3",

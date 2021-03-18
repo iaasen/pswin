@@ -1,14 +1,7 @@
 <?php
-/**
- * User: ingvar
- * Date: 18.03.2021
- * Time: 15.35
- */
 
 namespace Iaasen\Pswin\Model;
 
-
-use Nteb\ApiEntities\Exception\InvalidArgumentException;
 
 class SmsMessage
 {
