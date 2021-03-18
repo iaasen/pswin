@@ -15,7 +15,8 @@ class PswinSoapClientFactory implements FactoryInterface
 {
 	public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
 	{
-		$config = $container->get('config');
-		return new PswinSoapClient($config['username'], $config['password']);
+		$config = $container->get('config')['pswin'];
+		if(isset($config['soap']['wsdl'])) return new PswinSoapClient($config['username'], $config['password'], $config['soap']['wsdl']);
+		else return new PswinSoapClient($config['username'], $config['password']);
 	}
 }
