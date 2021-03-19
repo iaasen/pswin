@@ -11,7 +11,10 @@ class SmsMessage
 	public $text;
 	/** @var string */
 	public $receiver;
-	/** @var string */
+	/**
+	 * Sender name can be maximum 11 characters or 16 digits
+	 * @var string|int
+	 */
 	public $sender;
 
 
