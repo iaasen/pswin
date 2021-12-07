@@ -57,6 +57,14 @@ class PswinXmlClient implements PswinClientInterface
 	}
 
 
+	public function testConnection() : bool {
+		$xmlString = $this->createXmlString([]);
+		$xmlResponse = $this->transport->sendPostWithBody('/', $xmlString);
+		$response = simplexml_load_string($xmlResponse);
+		return $response->LOGON->__toString() == 'OK';
+	}
+
+
 	/**
 	 * @param SmsMessage[] $messages
 	 * @return SmsReport[]
