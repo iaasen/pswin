@@ -25,12 +25,9 @@ use Iaasen\Pswin\Xml\PswinXmlTransport;
  */
 class PswinXmlClient implements PswinClientInterface
 {
-	/** @var  string */
-	protected $username;
-	/** @var  string */
-	private $password;
-	/** @var PswinXmlTransport */
-	protected $transport;
+	protected string $username;
+	private string $password;
+	protected PswinXmlTransport $transport;
 
 
 	public function __construct(string $username, string $password, PswinXmlTransport $pswinXmlTransport = null)
