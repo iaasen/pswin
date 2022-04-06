@@ -18,7 +18,7 @@
         "iaasen/stdlib": "dev-master",
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-servicemanager": "^3",
-        "phpro/soap-client":  "^2"
+        "phpro/soap-client":  "^1|^2"
     },
     "require-dev": {
     },
