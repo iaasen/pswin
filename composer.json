@@ -13,10 +13,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.3",
-        "guzzlehttp/guzzle": "^6",
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7",
         "iaasen/stdlib": "dev-master",
-        "laminas/laminas-code": "^3",
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-servicemanager": "^3",
         "phpro/soap-client":  "^1"
