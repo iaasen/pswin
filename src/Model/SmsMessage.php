@@ -27,7 +27,7 @@ class SmsMessage
 
 
 	public static function sanitizeNumber(string $phoneNumber) : string {
-		$number = trim($phoneNumber);
+		$number = str_replace([' '], [''], $phoneNumber);
 		if(!strlen($number)) throw new \Exception('Empty string', 400);
 
 		if(substr($number, 0, 1) == '+') {
