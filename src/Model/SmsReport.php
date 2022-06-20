@@ -11,7 +11,7 @@ class SmsReport implements ArraySerializableInterface
 	public string $receiver;
 	public string $status;
 	public string $info = '';
-	public string $ref;
+	public ?string $ref = null;
 	public bool $sent = false;
 
 
