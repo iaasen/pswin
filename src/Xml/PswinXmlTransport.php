@@ -19,7 +19,7 @@ use Iaasen\Transport\GuzzleHttpTransport;
  */
 class PswinXmlTransport extends GuzzleHttpTransport
 {
-	public $headers = [
+	public array $headers = [
 		'Content-Type' => 'text/xml; charset=UTF-8',
 	];
 
