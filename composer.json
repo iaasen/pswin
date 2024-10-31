@@ -13,13 +13,13 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4|^8.1",
-        "guzzlehttp/guzzle": "^6|^7",
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7",
         "iaasen/stdlib": "dev-master",
         "laminas/laminas-modulemanager": "^2",
-        "laminas/laminas-servicemanager": "^3",
+        "laminas/laminas-servicemanager": "^4",
         "laminas/laminas-stdlib": "^3",
-        "phpro/soap-client":  "^1|^2"
+        "phpro/soap-client":  "^3"
     },
     "require-dev": {
     },
