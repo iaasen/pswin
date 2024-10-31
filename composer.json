@@ -17,7 +17,7 @@
         "guzzlehttp/guzzle": "^7",
         "iaasen/stdlib": "dev-master",
         "laminas/laminas-modulemanager": "^2",
-        "laminas/laminas-servicemanager": "^4",
+        "laminas/laminas-servicemanager": "^3|^4",
         "laminas/laminas-stdlib": "^3",
         "phpro/soap-client":  "^3"
     },
