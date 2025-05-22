@@ -134,5 +134,9 @@ class PswinXmlClient implements PswinClientInterface
 		return $x->outputMemory();
 	}
 
+    public function getTransport(): PswinXmlTransport
+    {
+        return $this->transport;
+    }
 
 }
