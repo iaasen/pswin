@@ -15,7 +15,7 @@
     "require": {
         "php": "^8.2",
         "guzzlehttp/guzzle": "^7",
-        "iaasen/stdlib": "dev-master",
+        "iaasen/stdlib": "^1",
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-servicemanager": "^3|^4",
         "laminas/laminas-stdlib": "^3",
